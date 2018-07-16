@@ -1,0 +1,154 @@
+body{
+    width: 98%;
+    min-width: 900px;
+    max-width: 1050px;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px auto; 
+    border: 1px solid black;
+}
+
+#mainContainer{
+    width: 100%;
+    background-image: url(../imgs/backgr.jpg);   
+    background-attachment: fixed;
+}
+
+#headerIMG{
+    width: 100%;
+    height: 225px;
+}
+
+nav.horizontalNAV{
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(60,59,58);
+    top: -20px;
+} 
+
+nav.horizontalNAV ul{
+    list-style: none;
+}
+
+nav.horizontalNAV li a{
+    text-decoration: none;
+    color: rgb(255,255,99);
+    font-size: 16px;
+    
+}
+
+nav.horizontalNAV li{
+    display: inline-block;
+    border: 5px solid #5B9210;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(100,200,100);
+}
+
+nav.horizontalNAV a:hover{
+    color: red;
+}
+
+#rightSideBar{
+    position: relative;
+    float: right;
+    width: 240px;
+    height: 300px;
+    background-color: rgb(175,175,175);
+    border-left: 1px solid black;
+    margin-left: 20px;
+    overflow: scroll;
+    top: -20px;
+}
+
+#rightSideBar h1{
+    font-size: 30px;
+    color: red;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#rightSideBar h2{
+    font-size: 22px;
+    color: green;
+    background-color: yellow;
+    font-family:'Noto Serif', serif;
+}
+
+#rightSideBar p{
+font-size: 87%;
+font-family: 'Noto Serif', serif;
+}
+
+#lazydog{
+    width: 290px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#main h1{
+    position: absolute;
+    font-size: 30px;
+    right: 690px;
+    bottom: 433px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Serif', serif;
+    color: brown;
+    text-align: center;
+}
+
+
+#championshipdog {
+    width: 280px;
+}
+
+#training1 grid_6 h2 {
+    
+    bottom: 225px;
+    right: 670px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20pt;
+    color: black;
+    text-align: center;
+}
+
+#training1 grid_6 h3 {
+    
+    right: 570px;
+    bottom: 200px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Serif', serif;
+    font-size: 18pt;
+    color: black;
+    text-align: center;
+}
+
+
+.clearfix{
+    overflow: auto;
+}
+
+
+
+#sitandstay{
+        width: 290px;
+        height: 260px;
+        float: left;
+        padding-right: 10px;
+        padding-left: 10px; 
+        
+}
+
+
+
+
+
